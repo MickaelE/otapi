@@ -7,7 +7,7 @@ export class Lag extends Entity {
     id: true,
     generated: true,
   })
-  lag_id?: number;
+  lagId?: number;
 
   @property({
     type: 'string',

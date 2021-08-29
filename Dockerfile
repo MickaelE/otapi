@@ -3,6 +3,8 @@ FROM node:16-slim
 
 # Set to a non-root built-in user `node`
 USER node
+# Bundle app source
+COPY . .
 
 # Create app directory (with user `node`)
 RUN mkdir -p /home/node/app

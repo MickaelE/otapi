@@ -5,7 +5,7 @@ import {Lag, LagRelations} from '../models';
 
 export class LagRepository extends DefaultCrudRepository<
   Lag,
-  typeof Lag.prototype.lag_id,
+  typeof Lag.prototype.lagId,
   LagRelations
 > {
   constructor(

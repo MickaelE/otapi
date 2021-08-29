@@ -39,7 +39,7 @@ export class LagControllerController {
         'application/json': {
           schema: getModelSchemaRef(Lag, {
             title: 'NewLag',
-            exclude: ['lag_id'],
+            exclude: ['lagId'],
           }),
         },
       },
